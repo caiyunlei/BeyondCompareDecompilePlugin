@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCFileFormats Version="1">
+	<TTextFormat Value="Class">
+		<CharPerLine Value="4096"/>
+		<CodePageDetect Value="True"/>
+		<ColBased Value="False"/>
+		<CommentCaseSig Value="True"/>
+		<ConvertKind Value="convertApp"/>
+		<ConvertLoadApp Value="java -jar Helpers/Java/fernflower.jar %s %t"/>
+		<ConvertNoEdit Value="True"/>
+		<CtrlZIsEOF Value="False"/>
+		<Description>
+			<_0 Value="need jre installed"/>
+			<_1 Value="https://github.com/caiyunlei/BeyondCompareDecompilePlugin"/>
+			<_2 Value=""/>
+		</Description>
+		<DirectiveCaseSig Value="True"/>
+		<EnvironVarCaseSig Value="True"/>
+		<Grammar>
+			<_0 Value="TListTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;Keyword"/>
+				<IsRegExp Value="False"/>
+				<Items>
+					<_0 Value="abstract"/>
+					<_1 Value="assert"/>
+					<_2 Value="boolean"/>
+					<_3 Value="break"/>
+					<_4 Value="byte"/>
+					<_5 Value="case"/>
+					<_6 Value="catch"/>
+					<_7 Value="char"/>
+					<_8 Value="class"/>
+					<_9 Value="const"/>
+					<_10 Value="continue"/>
+					<_11 Value="default"/>
+					<_12 Value="do"/>
+					<_13 Value="double"/>
+					<_14 Value="else"/>
+					<_15 Value="enum"/>
+					<_16 Value="extends"/>
+					<_17 Value="final"/>
+					<_18 Value="finally"/>
+					<_19 Value="float"/>
+					<_20 Value="for"/>
+					<_21 Value="goto"/>
+					<_22 Value="if"/>
+					<_23 Value="implements"/>
+					<_24 Value="import"/>
+					<_25 Value="instanceof"/>
+					<_26 Value="int"/>
+					<_27 Value="interface"/>
+					<_28 Value="long"/>
+					<_29 Value="native"/>
+					<_30 Value="new"/>
+					<_31 Value="package"/>
+					<_32 Value="private"/>
+					<_33 Value="protected"/>
+					<_34 Value="public"/>
+					<_35 Value="return"/>
+					<_36 Value="short"/>
+					<_37 Value="static"/>
+					<_38 Value="strictfp"/>
+					<_39 Value="super"/>
+					<_40 Value="switch"/>
+					<_41 Value="synchronized"/>
+					<_42 Value="this"/>
+					<_43 Value="throw"/>
+					<_44 Value="throws"/>
+					<_45 Value="transient"/>
+					<_46 Value="try"/>
+					<_47 Value="void"/>
+					<_48 Value="volatile"/>
+					<_49 Value="while"/>
+				</Items>
+			</_0>
+			<_1 Value="TBasicTextGrammarItem">
+				<CaseSensitive Value="False"/>
+				<ElementStr Value="&#2;Identifier"/>
+				<IsRegExp Value="True"/>
+				<Text Value="[_a-z]\w*"/>
+			</_1>
+			<_2 Value="TBasicTextGrammarItem">
+				<CaseSensitive Value="False"/>
+				<ElementStr Value="&#2;Number"/>
+				<IsRegExp Value="True"/>
+				<Text Value="\d+(\.\d+)?(e[+-]?\d+)?"/>
+			</_2>
+			<_3 Value="TDelimitedTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;String"/>
+				<Escape Value="92"/>
+				<IsRegExp Value="False"/>
+				<StopEOL Value="True"/>
+				<StopText Value="'"/>
+				<Text Value="'"/>
+			</_3>
+			<_4 Value="TDelimitedTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;String"/>
+				<Escape Value="92"/>
+				<IsRegExp Value="False"/>
+				<StopEOL Value="True"/>
+				<StopText Value="&quot;"/>
+				<Text Value="&quot;"/>
+			</_4>
+			<_5 Value="TDelimitedTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;Comment"/>
+				<Escape Value="0"/>
+				<IsRegExp Value="False"/>
+				<StopEOL Value="True"/>
+				<StopText Value=""/>
+				<Text Value="//"/>
+			</_5>
+			<_6 Value="TDelimitedTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;Comment"/>
+				<Escape Value="0"/>
+				<IsRegExp Value="False"/>
+				<StopEOL Value="False"/>
+				<StopText Value="*/"/>
+				<Text Value="/*"/>
+			</_6>
+			<_7 Value="TListTextGrammarItem">
+				<CaseSensitive Value="True"/>
+				<ElementStr Value="&#2;Operator"/>
+				<IsRegExp Value="False"/>
+				<Items>
+					<_0 Value="("/>
+					<_1 Value=")"/>
+					<_2 Value="{"/>
+					<_3 Value="}"/>
+					<_4 Value="["/>
+					<_5 Value="]"/>
+					<_6 Value=";"/>
+					<_7 Value=","/>
+					<_8 Value="."/>
+					<_9 Value="="/>
+					<_10 Value="=="/>
+					<_11 Value="+"/>
+					<_12 Value="+="/>
+					<_13 Value=">"/>
+					<_14 Value="&lt;="/>
+					<_15 Value="-"/>
+					<_16 Value="-="/>
+					<_17 Value="&lt;"/>
+					<_18 Value=">="/>
+					<_19 Value="*"/>
+					<_20 Value="*="/>
+					<_21 Value="!"/>
+					<_22 Value="!="/>
+					<_23 Value="~"/>
+					<_24 Value="&amp;&amp;"/>
+					<_25 Value="/"/>
+					<_26 Value="/="/>
+					<_27 Value="?"/>
+					<_28 Value="||"/>
+					<_29 Value="|"/>
+					<_30 Value="|="/>
+					<_31 Value=":"/>
+					<_32 Value="++"/>
+					<_33 Value="^"/>
+					<_34 Value="^="/>
+					<_35 Value="--"/>
+					<_36 Value="%"/>
+					<_37 Value="%="/>
+					<_38 Value="&lt;&lt;"/>
+					<_39 Value="&lt;&lt;="/>
+					<_40 Value=">>"/>
+					<_41 Value=">>="/>
+					<_42 Value=">>>"/>
+					<_43 Value=">>>="/>
+				</Items>
+			</_7>
+		</Grammar>
+		<IdentifierCaseSig Value="True"/>
+		<IndentCaseSig Value="True"/>
+		<KeywordCaseSig Value="True"/>
+		<LabelCaseSig Value="True"/>
+		<LineBased Value="False"/>
+		<LineNumCaseSig Value="True"/>
+		<Mask Value="*.class"/>
+		<NumberCaseSig Value="True"/>
+		<OperatorCaseSig Value="True"/>
+		<StringCaseSig Value="True"/>
+		<TabAsSpaces Value="False"/>
+		<TabSize Value="8"/>
+		<TidyLeadingWS Value="False"/>
+		<TrimTrailingWS Value="False"/>
+		<Enabled Value="True"/>
+	</TTextFormat>
+</BCFileFormats>
